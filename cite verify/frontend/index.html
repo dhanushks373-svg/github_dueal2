@@ -1,0 +1,1493 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>CiteVerify — Scientific Claim Verification</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- ATMOSPHERIC CRIMSON & SHADOW AMBIENT LAYER -->
+  <div class="crimson-ambience" id="crimsonAmbience" aria-hidden="true">
+    <div class="fog-band fog-one"></div>
+    <div class="fog-band fog-two"></div>
+    <div class="ember-field" id="emberField"></div>
+  </div>
+
+  <!-- =================================
+       PAGE 1 — HERO INTRODUCTION
+  ================================== -->
+
+  <header class="hero" id="hero">
+
+    <div class="stage">
+
+      <div class="glow" id="glow"></div>
+
+      <!-- LOGO -->
+
+      <div class="mark" id="mark">
+
+        <svg viewBox="0 0 200 200"
+             role="img"
+             aria-label="CiteVerify shield logo">
+
+          <path
+            id="sh"
+            class="dr"
+            pathLength="1"
+            d="M100 18L164 34V92C164 132 138 160 100 182C62 160 36 132 36 92V34Z"
+            stroke="#FF1E38"
+            stroke-width="6"
+            fill="none"
+            stroke-linejoin="round"
+          />
+
+          <path
+            id="sk"
+            class="dr"
+            pathLength="1"
+            d="M80 90V76a20 20 0 0 1 40 0V90"
+            stroke="#FFFFFF"
+            stroke-width="7"
+            fill="none"
+            stroke-linecap="round"
+          />
+
+          <g id="bd">
+            <rect x="68" y="88" width="64" height="52" rx="9" fill="#FFFFFF"/>
+            <circle cx="100" cy="110" r="6.5" fill="#070607"/>
+            <rect x="97" y="112" width="6" height="16" rx="2" fill="#070607"/>
+          </g>
+
+          <g id="px">
+
+            <rect class="p" x="10" y="64" width="9" height="9" fill="#FF1E38"/>
+            <rect class="p" x="22" y="86" width="7" height="7" fill="#FFFFFF"/>
+            <rect class="p" x="8" y="104" width="7" height="7" fill="#FF1E38"/>
+            <rect class="p" x="24" y="120" width="9" height="9" fill="#FF1E38"/>
+            <rect class="p" x="46" y="70" width="7" height="7" fill="#FFFFFF"/>
+            <rect class="p" x="50" y="98" width="6" height="6" fill="#FF1E38"/>
+            <rect class="p" x="46" y="124" width="6" height="6" fill="#FFFFFF"/>
+
+          </g>
+
+          <g id="ci"
+             stroke="#FF1E38"
+             stroke-width="4"
+             fill="none"
+             stroke-linecap="round"
+             stroke-linejoin="round">
+
+            <path class="dr" pathLength="1" d="M132 98H150L158 90H174"/>
+            <path class="dr" pathLength="1" d="M132 114H156L164 122H174"/>
+
+            <circle class="e" cx="179" cy="90" r="4"/>
+            <circle class="e" cx="179" cy="122" r="4"/>
+
+          </g>
+
+        </svg>
+
+      </div>
+
+      <!-- ANIMATED BRAND NAME -->
+
+      <h1 class="wm" id="wm" aria-label="CiteVerify"></h1>
+
+      <p class="tag" id="tag">
+        Every citation, checked against its source.
+      </p>
+
+      <div class="cta" id="cta">
+
+        <a href="#how" class="btn pri">
+          Explore how it works
+        </a>
+
+        <a href="#upload" class="btn">
+          Upload a paper
+        </a>
+
+      </div>
+
+      <div class="hint" id="hint">
+        SCROLL TO EXPLORE ↓
+      </div>
+
+    </div>
+
+  </header>
+
+
+  <!-- =================================
+       PAGE 2 — HOW IT WORKS
+  ================================== -->
+
+  <section class="how" id="how">
+
+    <div class="hs">
+
+      <span class="section-label">
+        THE VERIFICATION PROCESS
+      </span>
+
+      <div class="pills" id="pills"></div>
+
+      <div class="pbar">
+        <i id="pb"></i>
+      </div>
+
+      <!-- 3D CAROUSEL -->
+
+      <div class="scene">
+
+        <div class="ring" id="ring">
+
+          <!-- STEP 1 -->
+
+          <div class="slide">
+
+            <span class="tg">01 / UPLOAD</span>
+
+            <div class="up">
+              <b>Drop your paper</b>
+              <span>PDF or pasted text</span>
+              <span class="upload-icon">↑</span>
+            </div>
+
+            <span class="chip">
+              paper.pdf · 12 pages
+            </span>
+
+          </div>
+
+          <!-- STEP 2 -->
+
+          <div class="slide">
+
+            <span class="tg">02 / EXTRACT</span>
+
+            <p class="big">
+              <mark>A learning app improved test scores by 30%</mark>.
+              <span class="ch">[3]</span>
+            </p>
+
+            <span class="chip">
+              1 claim · 1 citation matched
+            </span>
+
+          </div>
+
+          <!-- STEP 3 -->
+
+          <div class="slide">
+
+            <span class="tg">03 / RETRIEVE</span>
+
+            <div class="blk">
+              <b>Smith, 2021</b>, page 4
+              <br>
+              Original paper located using DOI.
+            </div>
+
+            <span class="chip">
+              Source located
+            </span>
+
+          </div>
+
+          <!-- STEP 4 -->
+
+          <div class="slide">
+
+            <span class="tg">04 / COMPARE</span>
+
+            <div class="row">
+              <small>CLAIM</small>
+              <br>
+              <b>30% improvement</b>
+            </div>
+
+            <div class="blk">
+              <small>SOURCE SAYS</small>
+              <br>
+              Scores rose in a small pilot.
+              <u>No 30% figure.</u>
+            </div>
+
+            <span class="chip">
+              Mismatch found
+            </span>
+
+          </div>
+
+          <!-- STEP 5 -->
+
+          <div class="slide">
+
+            <span class="tg">05 / REPORT</span>
+
+            <span class="vb">
+              Partly supported
+            </span>
+
+            <div class="cb">
+              <i></i>
+            </div>
+
+            <span class="tagr">
+              Needs human review
+            </span>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <h2 class="st" id="st"></h2>
+
+      <p class="sd" id="sd"></p>
+
+    </div>
+
+  </section>
+
+
+  <!-- =================================
+       UPLOAD SECTION — STEP 1: 3D Z-TUNNEL WARP SLIDES
+  ================================== -->
+
+  <section class="upload-sec" id="upload">
+
+    <div class="up-stage" id="upStage">
+
+      <div class="up-glow"></div>
+      <div class="up-grid"></div>
+
+      <div class="up-head" id="upHead">
+
+        <div>
+          <span class="section-label">
+            STEP 01 — UPLOAD (DOCUMENT INGESTION)
+          </span>
+          <h2>
+            Submit a paper
+            <span>or paste manuscript text.</span>
+          </h2>
+        </div>
+
+        <div class="up-slide-nav" id="upNav">
+          <button type="button" class="up-tab active" data-up-slide="0">
+            01 File &amp; Sample
+          </button>
+          <button type="button" class="up-tab" data-up-slide="1">
+            02 Paste Manuscript
+          </button>
+          <button type="button" class="up-tab" data-up-slide="2">
+            03 Ready Queue
+          </button>
+        </div>
+
+      </div>
+
+      <div class="up-deck" id="upDeck">
+
+        <!-- 3D SLIDE 1: FILE UPLOAD BOX + 1-CLICK LOAD SAMPLE PAPER -->
+        <article class="up-3d-slide" data-up-idx="0">
+
+          <div class="up-slide-top">
+            <span class="tg">SLIDE 01 / DOCUMENT INGESTION · Z-TUNNEL</span>
+            <span class="chip" id="docBadge">manuscript.pdf · Ready</span>
+          </div>
+
+          <div class="up-slide-grid">
+
+            <label class="drop-box" id="dropZone" for="paperInput">
+              <span class="upload-icon">↑</span>
+              <b>Drop your academic paper here</b>
+              <span>Supports PDF, TXT, or MD research reports</span>
+              <span class="file-name-tag" id="selectedFileName">manuscript.pdf</span>
+              <input type="file" id="paperInput" accept=".pdf,.txt,.md" hidden>
+            </label>
+
+            <div class="sample-box">
+              <span class="mini-kicker">INSTANT DEMO FOR JUDGES</span>
+              <h3>Start with one click</h3>
+              <p>
+                Load a sample academic excerpt containing an inline citation and a 30% learning-app test score claim.
+              </p>
+              <button type="button" class="sample-load-btn" id="loadSampleBtn">
+                Load Sample Paper
+              </button>
+              <button type="button" class="ghost-next-btn" id="toSlide2Btn">
+                Or paste manuscript text →
+              </button>
+            </div>
+
+          </div>
+
+        </article>
+
+        <!-- 3D SLIDE 2: PASTED MANUSCRIPT TEXT -->
+        <article class="up-3d-slide" data-up-idx="1">
+
+          <div class="up-slide-top">
+            <span class="tg">SLIDE 02 / PASTED MANUSCRIPT TEXT · Z-TUNNEL</span>
+            <span class="chip" id="wordCountChip">0 words · 0 chars</span>
+          </div>
+
+          <p class="up-copy">
+            Paste paragraphs, claims, or inline citations (such as <code>[3]</code> or <code>(Author, Year)</code>) directly from your draft.
+          </p>
+
+          <textarea
+            id="manuscriptArea"
+            rows="6"
+            placeholder="Paste your research report or manuscript text here..."
+          ></textarea>
+
+          <div class="up-slide-actions">
+            <button type="button" class="sample-load-btn" id="loadSampleBtn2">
+              Load Sample Paper
+            </button>
+            <button type="button" class="ghost-next-btn" id="toSlide3Btn">
+              Review ingestion summary →
+            </button>
+          </div>
+
+        </article>
+
+        <!-- 3D SLIDE 3: INGESTION READY SUMMARY -->
+        <article class="up-3d-slide" data-up-idx="2">
+
+          <div class="up-slide-top">
+            <span class="tg">SLIDE 03 / INGESTION READY · Z-TUNNEL</span>
+            <span class="chip" id="readyChip">Document staged</span>
+          </div>
+
+          <div class="ready-summary">
+            <div class="summary-card">
+              <small>SOURCE DOCUMENT</small>
+              <strong id="summaryDocName">manuscript.pdf</strong>
+            </div>
+            <div class="summary-card">
+              <small>INGESTION MODE</small>
+              <strong id="summaryMode">Sample Paper Loaded</strong>
+            </div>
+            <div class="summary-card">
+              <small>EXTRACTED TEXT PREVIEW</small>
+              <p id="summarySnippet">
+                A particular study found that a learning app improved test scores by 30% [3].
+              </p>
+            </div>
+          </div>
+
+          <div class="up-slide-actions">
+            <button type="button" class="ghost-next-btn" id="backSlide1Btn">
+              ← Change file or sample
+            </button>
+            <a href="#extract" class="btn pri compact-link">
+              Proceed to Step 02: Extract →
+            </a>
+          </div>
+
+        </article>
+
+      </div>
+
+      <div class="up-footer">
+        <span id="upSlideCounter">SLIDE 01 / 03</span>
+        <div class="pbar up-pbar">
+          <i id="upProgressBar"></i>
+        </div>
+        <span id="upScrollHint">SCROLL FOR 3D Z-WARP SLIDES ↓</span>
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- =================================
+       4TH PAGE — STEP 2: 3D HINGE-FOLD SLIDES
+  ================================== -->
+
+  <section class="extract-sec" id="extract">
+
+    <div class="ex-stage" id="exStage">
+
+      <div class="ex-glow-a"></div>
+      <div class="ex-glow-b"></div>
+      <div class="ex-grid"></div>
+
+      <div class="ex-3d-tag" id="ex3DTag" aria-hidden="true">
+        <span>HINGE PARSER</span>
+        <strong>[1] · (Author, Year)</strong>
+      </div>
+
+      <div class="ex-head" id="exHead">
+
+        <div>
+          <span class="section-label">
+            STEP 02 — EXTRACT (CLAIMS &amp; CITATIONS DETECTION)
+          </span>
+          <h2>
+            Isolate testable claims,
+            <span>pinpoint every citation.</span>
+          </h2>
+        </div>
+
+        <div class="ex-nav" id="exNav">
+          <button type="button" class="ex-tab active" data-ex-slide="0">
+            01 Highlighted Claim
+          </button>
+          <button type="button" class="ex-tab" data-ex-slide="1">
+            02 Citation Matcher
+          </button>
+          <button type="button" class="ex-tab" data-ex-slide="2">
+            03 Extracted Queue
+          </button>
+        </div>
+
+      </div>
+
+      <div class="ex-deck" id="exDeck">
+
+        <!-- 3D SLIDE 1: HIGHLIGHTED SENTENCE VISUAL -->
+        <article class="ex-3d-slide" data-ex-idx="0">
+
+          <div class="ex-slide-top">
+            <span class="tg">SLIDE 01 / CLAIM &amp; METRIC ISOLATION · 3D HINGE</span>
+            <span class="chip">1 Numeric Claim · Citation [3]</span>
+          </div>
+
+          <div class="ex-slide-split">
+
+            <div class="ex-spotlight-card">
+              <span class="ex-eyebrow">DETECTED SENTENCE IN MANUSCRIPT</span>
+              <p class="ex-quote">
+                <mark class="ex-mark">“A particular study found that a learning app improved test scores by 30%”</mark>
+                <span class="ex-cite-badge">[3]</span><span class="ex-period">.</span>
+              </p>
+              <div class="ex-meta-pills">
+                <span class="ex-pill">Metric: 30% Score Gain</span>
+                <span class="ex-pill">Subject: Learning App</span>
+                <span class="ex-pill dark">Citation Token: [3]</span>
+              </div>
+            </div>
+
+            <div class="ex-side-panel">
+              <span class="ex-eyebrow">SCANNER DIAGNOSTIC</span>
+              <h3>Factual &amp; numeric claims separated from prose</h3>
+              <p>
+                CiteVerify scans uploaded text to isolate factual statements, quantitative figures, and conclusions requiring proof—attaching inline markers like <code>[1]</code> or <code>(Author, Year)</code>.
+              </p>
+              <button type="button" class="sample-load-btn" id="exToSlide2Btn">
+                Inspect Reference Match →
+              </button>
+            </div>
+
+          </div>
+
+        </article>
+
+        <!-- 3D SLIDE 2: CITATION TO REFERENCE LIST MATCHER -->
+        <article class="ex-3d-slide" data-ex-idx="1">
+
+          <div class="ex-slide-top">
+            <span class="tg">SLIDE 02 / INLINE CITATION TO REFERENCE MATCHING · 3D HINGE</span>
+            <span class="chip">Reference Index Linked</span>
+          </div>
+
+          <div class="ex-match-board">
+
+            <div class="ex-match-col">
+              <span class="ex-eyebrow">INLINE CITATIONS DETECTED</span>
+              <div class="ex-token-card active-token" data-ref="3">
+                <strong>[3]</strong>
+                <span>Attached to 30% test-score claim</span>
+              </div>
+              <div class="ex-token-card" data-ref="1">
+                <strong>[1]</strong>
+                <span>Attached to spaced-practice recall claim</span>
+              </div>
+              <div class="ex-token-card" data-ref="ay">
+                <strong>(Smith, 2021)</strong>
+                <span>Author–Year citation pattern detected</span>
+              </div>
+            </div>
+
+            <div class="ex-match-connector" aria-hidden="true">
+              <span>⇄</span>
+              <small>MATCHED</small>
+            </div>
+
+            <div class="ex-match-col">
+              <span class="ex-eyebrow">MATCHED REFERENCE ENTRY</span>
+              <div class="ex-ref-card" id="exRefCard">
+                <div class="ex-ref-id">REF [3] · MATCHED</div>
+                <h4>Smith, J., &amp; Patel, R. (2021)</h4>
+                <p>
+                  <em>Classroom Mobile Learning Pilot &amp; Assessment Outcomes</em>, Journal of Educational Practice, Vol. 18, pp. 41–56.
+                </p>
+                <span class="ex-ref-status">Ready for Source Retrieval</span>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="up-slide-actions">
+            <button type="button" class="ghost-next-btn" id="exBackSlide1Btn">
+              ← Back to highlighted sentence
+            </button>
+            <button type="button" class="sample-load-btn" id="exToSlide3Btn">
+              View full extracted queue →
+            </button>
+          </div>
+
+        </article>
+
+        <!-- 3D SLIDE 3: EXTRACTED CLAIMS & CITATIONS QUEUE -->
+        <article class="ex-3d-slide" data-ex-idx="2">
+
+          <div class="ex-slide-top">
+            <span class="tg">SLIDE 03 / STRUCTURED EXTRACTION OUTPUT · 3D HINGE</span>
+            <span class="chip" id="exCountChip">2 Claims Extracted</span>
+          </div>
+
+          <div class="ex-queue-grid" id="exQueueList">
+            <div class="ex-queue-card">
+              <div class="ex-q-top">
+                <span class="ex-q-num">CLAIM #01</span>
+                <span class="ex-q-cite">CITES [3]</span>
+              </div>
+              <p>A particular study found that a learning app improved test scores by 30% [3].</p>
+              <small>Type: Quantitative Outcome · Matched Ref [3]</small>
+            </div>
+
+            <div class="ex-queue-card">
+              <div class="ex-q-top">
+                <span class="ex-q-num">CLAIM #02</span>
+                <span class="ex-q-cite">CITES [1]</span>
+              </div>
+              <p>Structured retrieval practice over eight weeks improved delayed recall in introductory biology [1].</p>
+              <small>Type: Empirical Finding · Matched Ref [1]</small>
+            </div>
+          </div>
+
+          <div class="up-slide-actions">
+            <button type="button" class="ghost-next-btn" id="exBackSlide2Btn">
+              ← Back to citation matcher
+            </button>
+            <a href="#retrieve" class="btn pri compact-link">
+              Proceed to Step 03: Retrieve →
+            </a>
+          </div>
+
+        </article>
+
+      </div>
+
+      <div class="up-footer">
+        <span id="exSlideCounter">SLIDE 01 / 03</span>
+        <div class="pbar up-pbar">
+          <i id="exProgressBar"></i>
+        </div>
+        <span id="exScrollHint">SCROLL FOR 3D HINGE-FOLD SLIDES ↓</span>
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- =================================
+       5TH PAGE — STEP 3: 3D DIAGONAL GYRO-ORBIT SLIDES
+  ================================== -->
+
+  <section class="retrieve-sec" id="retrieve">
+
+    <div class="ret-stage" id="retStage">
+
+      <div class="ret-glow-top"></div>
+      <div class="ret-glow-bot"></div>
+      <div class="ret-grid"></div>
+
+      <div class="ret-gyro-badge" id="retGyroBadge" aria-hidden="true">
+        <span>DOI RESOLVER</span>
+        <strong>PRIMARY SOURCE</strong>
+      </div>
+
+      <div class="ret-head" id="retHead">
+
+        <div>
+          <span class="section-label">
+            STEP 03 — RETRIEVE (ORIGINAL PAPER LOOKUP)
+          </span>
+          <h2>
+            Locate primary sources,
+            <span>verify every DOI trail.</span>
+          </h2>
+        </div>
+
+        <div class="ret-nav" id="retNav">
+          <button type="button" class="ret-tab active" data-ret-slide="0">
+            01 Source Metadata
+          </button>
+          <button type="button" class="ret-tab" data-ret-slide="1">
+            02 Lookup Signals
+          </button>
+          <button type="button" class="ret-tab" data-ret-slide="2">
+            03 Original Priority
+          </button>
+        </div>
+
+      </div>
+
+      <div class="ret-deck" id="retDeck">
+
+        <!-- 3D SLIDE 1: SOURCE METADATA CARD -->
+        <article class="ret-3d-slide" data-ret-idx="0">
+
+          <div class="ret-slide-top">
+            <span class="tg">SLIDE 01 / SOURCE METADATA CARD · 3D GYRO-ORBIT</span>
+            <span class="chip" id="retMatchBadge">Primary Source Located</span>
+          </div>
+
+          <div class="ret-meta-layout">
+
+            <div class="ret-source-card" id="retSourceCard">
+              <div class="ret-card-top">
+                <span class="ret-eyebrow">MATCHED ORIGINAL PUBLICATION</span>
+                <span class="ret-year-badge" id="retYearBadge">2021</span>
+              </div>
+
+              <h3 id="retPaperTitle">
+                Classroom Mobile Learning Pilot &amp; Assessment Outcomes
+              </h3>
+
+              <div class="ret-meta-grid">
+                <div class="ret-meta-item">
+                  <small>AUTHOR(S)</small>
+                  <strong id="retAuthor">Smith, J., &amp; Patel, R.</strong>
+                </div>
+                <div class="ret-meta-item">
+                  <small>PUBLICATION YEAR</small>
+                  <strong id="retYear">2021</strong>
+                </div>
+                <div class="ret-meta-item">
+                  <small>PAGE / SECTION</small>
+                  <strong id="retPageSec">Page 4 · Section 2.1 (pp. 41–56)</strong>
+                </div>
+                <div class="ret-meta-item">
+                  <small>VERIFIED DOI LINK</small>
+                  <a
+                    id="retDoiLink"
+                    class="ret-doi-link"
+                    href="https://doi.org/10.1080/edup.2021.0419"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    https://doi.org/10.1080/edup.2021.0419 ↗
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="ret-selector-panel">
+              <span class="ex-eyebrow">SWITCH CITATION TARGET</span>
+              <p>
+                Inspect retrieved metadata across detected citations to see how CiteVerify locks onto the primary source.
+              </p>
+
+              <button type="button" class="ret-pick-btn active" data-source="smith2021">
+                <b>Citation [3]</b>
+                <span>Smith &amp; Patel (2021) · p. 4</span>
+              </button>
+
+              <button type="button" class="ret-pick-btn" data-source="lin2023">
+                <b>Citation [1]</b>
+                <span>Lin &amp; Gomez (2023) · Sec. 3.2</span>
+              </button>
+
+              <button type="button" class="sample-load-btn" id="retToSlide2Btn">
+                Inspect lookup queries →
+              </button>
+            </div>
+
+          </div>
+
+        </article>
+
+        <!-- 3D SLIDE 2: TITLE, AUTHOR, DOI & METADATA SEARCH SIGNALS -->
+        <article class="ret-3d-slide" data-ret-idx="1">
+
+          <div class="ret-slide-top">
+            <span class="tg">SLIDE 02 / MULTI-KEY METADATA LOOKUP · 3D GYRO-ORBIT</span>
+            <span class="chip">DOI + Title + Author Indexed</span>
+          </div>
+
+          <div class="ret-keys-grid">
+            <div class="ret-key-box">
+              <span class="ret-key-num">KEY 01</span>
+              <h4>DOI &amp; Identifier Check</h4>
+              <p>Resolves exact DOI strings and canonical cross-reference records before falling back to fuzzy title search.</p>
+              <span class="ret-key-tag">10.1080/edup.2021.0419</span>
+            </div>
+
+            <div class="ret-key-box">
+              <span class="ret-key-num">KEY 02</span>
+              <h4>Title &amp; Author Matching</h4>
+              <p>Cross-checks lead and co-author surnames, publication year, and journal title to prevent secondary-paper mix-ups.</p>
+              <span class="ret-key-tag">Smith, J. · Patel, R. (2021)</span>
+            </div>
+
+            <div class="ret-key-box">
+              <span class="ret-key-num">KEY 03</span>
+              <h4>Page &amp; Section Pinpointing</h4>
+              <p>Narrows retrieval to the cited page or section so downstream comparison reads the exact passage.</p>
+              <span class="ret-key-tag">Page 4 · Section 2.1</span>
+            </div>
+          </div>
+
+          <div class="up-slide-actions">
+            <button type="button" class="ghost-next-btn" id="retBackSlide1Btn">
+              ← Back to source metadata card
+            </button>
+            <button type="button" class="sample-load-btn" id="retToSlide3Btn">
+              See original source priority →
+            </button>
+          </div>
+
+        </article>
+
+        <!-- 3D SLIDE 3: PRIORITIZING THE ORIGINAL SOURCE PAPER -->
+        <article class="ret-3d-slide" data-ret-idx="2">
+
+          <div class="ret-slide-top">
+            <span class="tg">SLIDE 03 / ORIGINAL SOURCE PRIORITIZATION · 3D GYRO-ORBIT</span>
+            <span class="chip">Original Paper First</span>
+          </div>
+
+          <div class="ret-priority-wrap">
+            <div class="ret-priority-card primary">
+              <span class="ret-prio-badge">PRIORITY #1 · SELECTED</span>
+              <h4>Original Empirical Study (Primary Source)</h4>
+              <p>
+                Directly retrieves the primary study reporting the actual trial design, sample size, and outcomes—avoiding second-hand summaries or blog retellings.
+              </p>
+            </div>
+
+            <div class="ret-priority-card secondary">
+              <span class="ret-prio-badge muted">FILTERED / SECONDARY</span>
+              <h4>Secondary Citations &amp; Derivative Summaries</h4>
+              <p>
+                Deprioritized when a primary DOI or original study record is available, ensuring claims are tested against root evidence.
+              </p>
+            </div>
+          </div>
+
+          <div class="up-slide-actions">
+            <button type="button" class="ghost-next-btn" id="retBackSlide2Btn">
+              ← Back to lookup signals
+            </button>
+            <a href="#compare" class="btn pri compact-link">
+              Proceed to Step 04: Compare →
+            </a>
+          </div>
+
+        </article>
+
+      </div>
+
+      <div class="up-footer">
+        <span id="retSlideCounter">SLIDE 01 / 03</span>
+        <div class="pbar up-pbar">
+          <i id="retProgressBar"></i>
+        </div>
+        <span id="retScrollHint">SCROLL FOR 3D GYRO-ORBIT SLIDES ↓</span>
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- =================================
+       6TH PAGE — STEP 4: COMPARE (EVIDENCE & SCOPE CHECK · 3D GUILLOTINE COUNTER-SHEAR)
+  ================================== -->
+
+  <section class="compare-sec" id="compare">
+
+    <div class="cmp-stage" id="cmpStage">
+
+      <div class="cmp-glow-left"></div>
+      <div class="cmp-glow-right"></div>
+      <div class="cmp-shear-rail" id="cmpShearRail" aria-hidden="true"></div>
+
+      <div class="cmp-dial-badge" id="cmpDialBadge" aria-hidden="true">
+        <span>SCOPE AUDIT</span>
+        <strong>CLAIM VS. SOURCE</strong>
+      </div>
+
+      <div class="cmp-head" id="cmpHead">
+
+        <div>
+          <span class="section-label">
+            STEP 04 — COMPARE (EVIDENCE &amp; SCOPE CHECK)
+          </span>
+          <h2>
+            Test every claim
+            <span>against actual evidence.</span>
+          </h2>
+        </div>
+
+        <div class="cmp-nav" id="cmpNav">
+          <button type="button" class="cmp-tab active" data-cmp-slide="0">
+            01 Side-by-Side
+          </button>
+          <button type="button" class="cmp-tab" data-cmp-slide="1">
+            02 Scope &amp; Limits
+          </button>
+          <button type="button" class="cmp-tab" data-cmp-slide="2">
+            03 Red-Flag Checks
+          </button>
+        </div>
+
+      </div>
+
+      <div class="cmp-deck" id="cmpDeck">
+
+        <!-- 3D SLIDE 1: SIDE-BY-SIDE COMPARISON -->
+        <article class="cmp-3d-slide" data-cmp-idx="0">
+
+          <div class="cmp-slide-top">
+            <span class="tg">SLIDE 01 / SIDE-BY-SIDE EVIDENCE CHECK · 3D COUNTER-SHEAR</span>
+            <span class="chip">Exaggerated Metric Detected</span>
+          </div>
+
+          <div class="cmp-versus-grid">
+
+            <div class="cmp-pane claim-pane" id="cmpClaimPane">
+              <div class="cmp-pane-head">
+                <span class="cmp-kicker">DOCUMENT CLAIM</span>
+                <span class="cmp-badge warn">MANUSCRIPT</span>
+              </div>
+              <p class="cmp-hero-statement">
+                Improved test scores by <mark>30%</mark>.
+              </p>
+              <p class="cmp-detail">
+                Asserts a specific 30% test-score increase tied to citation [3].
+              </p>
+            </div>
+
+            <div class="cmp-vs-core" aria-hidden="true">
+              <span>VS</span>
+              <small>AUDIT</small>
+            </div>
+
+            <div class="cmp-pane source-pane" id="cmpSourcePane">
+              <div class="cmp-pane-head">
+                <span class="cmp-kicker crimson">CITED PAPER</span>
+                <span class="cmp-badge flag">PRIMARY SOURCE</span>
+              </div>
+              <p class="cmp-hero-statement white">
+                Reports score improvement in a <u>small pilot group</u>, with <u>no 30% increase</u>.
+              </p>
+              <p class="cmp-detail muted">
+                Passage check shows a small pilot gain rather than a verified 30% jump.
+              </p>
+            </div>
+
+          </div>
+
+          <div class="up-slide-actions">
+            <span class="cmp-inline-note">
+              Audit Result: Claim overstates magnitude beyond small-pilot findings
+            </span>
+            <button type="button" class="sample-load-btn" id="cmpToSlide2Btn">
+              Inspect scope &amp; limitations →
+            </button>
+          </div>
+
+        </article>
+
+        <!-- 3D SLIDE 2: ACTUAL FINDINGS, SCOPE & LIMITATIONS -->
+        <article class="cmp-3d-slide" data-cmp-idx="1">
+
+          <div class="cmp-slide-top">
+            <span class="tg">SLIDE 02 / FINDINGS, SCOPE &amp; LIMITATIONS · 3D COUNTER-SHEAR</span>
+            <span class="chip">Pilot Scope Verified</span>
+          </div>
+
+          <div class="cmp-scope-grid">
+            <div class="cmp-scope-card">
+              <span class="cmp-scope-tag">ACTUAL FINDINGS</span>
+              <h4>Positive Pilot Shift</h4>
+              <p>
+                Reads the cited passage to verify what was actually observed—score improvement occurred, but no 30% figure appears.
+              </p>
+            </div>
+
+            <div class="cmp-scope-card">
+              <span class="cmp-scope-tag">STUDY SCOPE</span>
+              <h4>Small Pilot Group</h4>
+              <p>
+                Evaluates context boundaries—results come from a small pilot group rather than a broad large-scale cohort.
+              </p>
+            </div>
+
+            <div class="cmp-scope-card">
+              <span class="cmp-scope-tag">LIMITATIONS</span>
+              <h4>Bounded Generalization</h4>
+              <p>
+                Surfaces pilot constraints and caveats so readers see where the evidence stops short of the claim.
+              </p>
+            </div>
+          </div>
+
+          <div class="up-slide-actions">
+            <button type="button" class="ghost-next-btn" id="cmpBackSlide1Btn">
+              ← Back to side-by-side comparison
+            </button>
+            <button type="button" class="sample-load-btn" id="cmpToSlide3Btn">
+              See discrepancy flags →
+            </button>
+          </div>
+
+        </article>
+
+        <!-- 3D SLIDE 3: FLAGGING MISSING, UNRELATED, OR EXAGGERATED REFERENCES -->
+        <article class="cmp-3d-slide" data-cmp-idx="2">
+
+          <div class="cmp-slide-top">
+            <span class="tg">SLIDE 03 / REFERENCE MISMATCH FLAGS · 3D COUNTER-SHEAR</span>
+            <span class="chip">Missing · Unrelated · Exaggerated</span>
+          </div>
+
+          <div class="cmp-flags-grid">
+            <div class="cmp-flag-card">
+              <span class="cmp-flag-pill">MISSING</span>
+              <h4>Missing Evidence</h4>
+              <p>Flags references that fail to contain or substantiate the cited claim or reported metric.</p>
+            </div>
+
+            <div class="cmp-flag-card">
+              <span class="cmp-flag-pill">UNRELATED</span>
+              <h4>Unrelated Reference</h4>
+              <p>Flags cited papers addressing an unrelated topic, population, or outcome.</p>
+            </div>
+
+            <div class="cmp-flag-card active-flag">
+              <span class="cmp-flag-pill crimson">EXAGGERATED · FLAGGED</span>
+              <h4>Exaggerated Claim</h4>
+              <p>Flags overstated figures or scope—such as claiming a 30% score gain from a small pilot with no 30% increase.</p>
+            </div>
+          </div>
+
+          <div class="up-slide-actions">
+            <button type="button" class="ghost-next-btn" id="cmpBackSlide2Btn">
+              ← Back to scope &amp; limitations
+            </button>
+            <a href="#report" class="btn pri compact-link">
+              Proceed to Step 05: Report →
+            </a>
+          </div>
+
+        </article>
+
+      </div>
+
+      <div class="up-footer">
+        <span id="cmpSlideCounter">SLIDE 01 / 03</span>
+        <div class="pbar up-pbar">
+          <i id="cmpProgressBar"></i>
+        </div>
+        <span id="cmpScrollHint">SCROLL FOR 3D COUNTER-SHEAR SLIDES ↓</span>
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- =================================
+       7TH PAGE — STEP 5: REPORT (STRUCTURED VERIFICATION CARD · GSAP + 3D HYPER-PRISM)
+  ================================== -->
+
+  <section class="report-sec" id="report">
+
+    <div class="rep-stage" id="repStage">
+
+      <div class="rep-glow-main"></div>
+      <div class="rep-glow-accent"></div>
+      <div class="rep-prism-wire" id="repPrismWire" aria-hidden="true"></div>
+
+      <div class="rep-3d-prism" id="rep3DPrism" aria-hidden="true">
+        <span>VERIFICATION CARD</span>
+        <strong id="repPrismVerdict">PARTLY SUPPORTED</strong>
+      </div>
+
+      <div class="rep-head" id="repHead">
+
+        <div>
+          <span class="section-label">
+            STEP 05 — REPORT (STRUCTURED VERIFICATION CARD)
+          </span>
+          <h2>
+            Claim-by-claim dossier,
+            <span>calibrated for human review.</span>
+          </h2>
+        </div>
+
+        <div class="rep-nav" id="repNav">
+          <button type="button" class="rep-tab active" data-rep-slide="0">
+            01 Master 6-Field Card
+          </button>
+          <button type="button" class="rep-tab" data-rep-slide="1">
+            02 Verdict &amp; Confidence
+          </button>
+          <button type="button" class="rep-tab" data-rep-slide="2">
+            03 Source Trace &amp; Audit
+          </button>
+        </div>
+
+      </div>
+
+      <div class="rep-deck" id="repDeck">
+
+        <!-- 3D SLIDE 1: FULL 6-FIELD STRUCTURED VERIFICATION CARD -->
+        <article class="rep-3d-slide" data-rep-idx="0">
+
+          <div class="rep-slide-top">
+            <span class="tg">SLIDE 01 / ALL 6 VERIFICATION FIELDS · 3D HYPER-PRISM</span>
+            <div class="rep-claim-switcher">
+              <button type="button" class="rep-case-btn active" data-case="c1">
+                Claim #01 [3]
+              </button>
+              <button type="button" class="rep-case-btn" data-case="c2">
+                Claim #02 [1]
+              </button>
+            </div>
+          </div>
+
+          <div class="rep-six-grid" id="repSixGrid">
+
+            <!-- 1. CLAIM -->
+            <div class="rep-field-box f-claim">
+              <div class="rep-f-head">
+                <span class="rep-f-num">01 / CLAIM</span>
+                <span class="rep-f-tag">DOCUMENT STATEMENT</span>
+              </div>
+              <p class="rep-f-main" id="repFieldClaim">
+                “A particular study found that a learning app improved test scores by 30% [3].”
+              </p>
+            </div>
+
+            <!-- 2. CITATION -->
+            <div class="rep-field-box f-citation">
+              <div class="rep-f-head">
+                <span class="rep-f-num">02 / CITATION</span>
+                <span class="rep-f-tag">MATCHED REFERENCE</span>
+              </div>
+              <strong id="repFieldCitation">
+                [3] Smith, J., &amp; Patel, R. (2021)
+              </strong>
+              <span class="rep-f-sub" id="repFieldPub">
+                Journal of Educational Practice · Vol. 18, pp. 41–56 (Sec. 2.1)
+              </span>
+            </div>
+
+            <!-- 3. EVIDENCE -->
+            <div class="rep-field-box f-evidence">
+              <div class="rep-f-head">
+                <span class="rep-f-num crimson">03 / EVIDENCE</span>
+                <span class="rep-f-tag crimson">SOURCE PASSAGE &amp; SCOPE</span>
+              </div>
+              <p class="rep-f-main white" id="repFieldEvidence">
+                Source reports score gains in a <u>small pilot group</u>, with <u>no 30% increase</u> observed; limited sample size and pilot scope.
+              </p>
+            </div>
+
+            <!-- 4. VERDICT -->
+            <div class="rep-field-box f-verdict">
+              <div class="rep-f-head">
+                <span class="rep-f-num">04 / VERDICT</span>
+                <span class="rep-f-pill" id="repFieldVerdictPill">PARTLY SUPPORTED</span>
+              </div>
+              <strong id="repFieldVerdictShort">
+                Partly Supported — Direction matches, 30% figure unverified.
+              </strong>
+              <span class="rep-f-sub">
+                Taxonomy: Supported · Partly Supported · Unsupported · Contradictory · Outdated
+              </span>
+            </div>
+
+            <!-- 5. CONFIDENCE -->
+            <div class="rep-field-box f-confidence">
+              <div class="rep-f-head">
+                <span class="rep-f-num">05 / CONFIDENCE</span>
+                <span class="rep-f-score" id="repFieldConfScore">68% CALIBRATED</span>
+              </div>
+              <div class="rep-conf-track">
+                <i id="repFieldConfFill" style="width: 68%;"></i>
+              </div>
+              <span class="rep-f-sub" id="repFieldConfNote">
+                Evidence strength &amp; uncertainty indicator—not a guarantee.
+              </span>
+            </div>
+
+            <!-- 6. SOURCE TRACE -->
+            <div class="rep-field-box f-trace">
+              <div class="rep-f-head">
+                <span class="rep-f-num crimson">06 / SOURCE TRACE</span>
+                <span class="rep-f-tag crimson">HUMAN INSPECTION</span>
+              </div>
+              <strong class="white" id="repFieldLoc">
+                Page 4 · Section 2.1 · Paragraph 2
+              </strong>
+              <a
+                id="repFieldTraceLink"
+                class="rep-trace-link"
+                href="https://doi.org/10.1080/edup.2021.0419"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Inspect DOI: 10.1080/edup.2021.0419 ↗
+              </a>
+            </div>
+
+          </div>
+
+          <div class="up-slide-actions">
+            <span class="cmp-inline-note">
+              All 6 structured fields generated per claim for transparent human review
+            </span>
+            <button type="button" class="sample-load-btn" id="repToSlide2Btn">
+              Explore verdict &amp; confidence calibration →
+            </button>
+          </div>
+
+        </article>
+
+        <!-- 3D SLIDE 2: VERDICT TAXONOMY & CALIBRATED CONFIDENCE -->
+        <article class="rep-3d-slide" data-rep-idx="1">
+
+          <div class="rep-slide-top">
+            <span class="tg">SLIDE 02 / VERDICT &amp; CALIBRATED CONFIDENCE · 3D HYPER-PRISM</span>
+            <span class="chip">Uncertainty-Aware Scoring</span>
+          </div>
+
+          <div class="rep-verdict-layout">
+
+            <div class="rep-taxonomy-card">
+              <span class="ex-eyebrow">5-STATE VERDICT TAXONOMY</span>
+              <h4>Nuanced classification beyond binary true/false</h4>
+              <div class="rep-tax-list">
+                <span class="tax-chip">Supported</span>
+                <span class="tax-chip active-tax">Partly Supported</span>
+                <span class="tax-chip">Unsupported</span>
+                <span class="tax-chip">Contradictory</span>
+                <span class="tax-chip">Outdated</span>
+              </div>
+              <p>
+                Pairs each verdict label with a concise explanation of why the claim aligns, partially aligns, conflicts with, or overreaches the cited work.
+              </p>
+            </div>
+
+            <div class="rep-cal-card">
+              <span class="ex-eyebrow">CALIBRATED CONFIDENCE</span>
+              <h4>Strength &amp; uncertainty—not a guarantee</h4>
+              <p>
+                Reflects source retrieval certainty, passage clarity, and scope alignment—explicitly remaining an indicator rather than an absolute proof.
+              </p>
+              <div class="rep-cal-meter">
+                <div class="rep-cal-row">
+                  <span>Passage &amp; DOI Match</span>
+                  <b>High</b>
+                </div>
+                <div class="rep-cal-row">
+                  <span>Numeric 30% Alignment</span>
+                  <b>None Found</b>
+                </div>
+                <div class="rep-cal-row">
+                  <span>Pilot Scope Caveat</span>
+                  <b>Small Cohort</b>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="up-slide-actions">
+            <button type="button" class="ghost-next-btn" id="repBackSlide1Btn">
+              ← Back to 6-field card
+            </button>
+            <button type="button" class="sample-load-btn" id="repToSlide3Btn">
+              Inspect source trace &amp; human audit →
+            </button>
+          </div>
+
+        </article>
+
+        <!-- 3D SLIDE 3: SOURCE TRACEABILITY & HUMAN-IN-THE-LOOP GUARANTEE -->
+        <article class="rep-3d-slide" data-rep-idx="2">
+
+          <div class="rep-slide-top">
+            <span class="tg">SLIDE 03 / SOURCE TRACE &amp; REVIEWER HANDOFF · 3D HYPER-PRISM</span>
+            <span class="chip">Direct Paper Inspection</span>
+          </div>
+
+          <div class="rep-trace-layout">
+            <div class="rep-trace-spotlight">
+              <span class="rep-prio-badge">06 / SOURCE TRACEABILITY</span>
+              <h4>Direct DOI, Page &amp; Section Trail</h4>
+              <p>
+                Every report card links straight to the verified DOI and exact page/section (e.g., <strong>Page 4, Section 2.1</strong>) so a human reviewer can read the original context firsthand.
+              </p>
+              <a
+                class="ret-doi-link"
+                href="https://doi.org/10.1080/edup.2021.0419"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Open Source Record (https://doi.org/10.1080/edup.2021.0419) ↗
+              </a>
+            </div>
+
+            <div class="rep-review-card">
+              <span class="rep-prio-badge muted">HUMAN-IN-THE-LOOP</span>
+              <h4>Reviewer Makes the Final Call</h4>
+              <p>
+                CiteVerify surfaces structured evidence, mismatches, and calibrated confidence—keeping final academic judgment in human hands.
+              </p>
+            </div>
+          </div>
+
+          <div class="up-slide-actions">
+            <button type="button" class="ghost-next-btn" id="repBackSlide2Btn">
+              ← Back to verdict &amp; confidence
+            </button>
+            <a href="#demo-trust" class="btn pri compact-link">
+              Proceed to Live Demo &amp; Trust Closing →
+            </a>
+          </div>
+
+        </article>
+
+      </div>
+
+      <div class="up-footer">
+        <span id="repSlideCounter">SLIDE 01 / 03</span>
+        <div class="pbar up-pbar">
+          <i id="repProgressBar"></i>
+        </div>
+        <span id="repScrollHint">SCROLL FOR 3D HYPER-PRISM REPORT SLIDES ↓</span>
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- =================================
+       FINAL SECTION — SLIDE 7: LIVE DEMO & DELIVERABLE + SLIDE 8: ACADEMIC TRUST
+       3D PENDULUM / FOLD-OUT DOSSIER + GSAP SCROLLTRIGGER
+  ================================== -->
+
+  <section class="demo-trust-sec" id="demo-trust">
+
+    <div class="dt-stage" id="dtStage">
+
+      <div class="dt-glow-a"></div>
+      <div class="dt-glow-b"></div>
+      <div class="dt-orbit-ring" id="dtOrbitRing" aria-hidden="true"></div>
+
+      <div class="dt-pendulum-tag" id="dtPendulumTag" aria-hidden="true">
+        <span>TRUST PROTOCOL</span>
+        <strong>HUMAN-IN-THE-LOOP</strong>
+      </div>
+
+      <div class="dt-head" id="dtHead">
+
+        <div>
+          <span class="section-label">
+            SLIDES 07 &amp; 08 — LIVE DEMO WALKTHROUGH &amp; ACADEMIC TRUST
+          </span>
+          <h2>
+            Prototype in action,
+            <span>built for academic trust.</span>
+          </h2>
+        </div>
+
+        <div class="dt-nav" id="dtNav">
+          <button type="button" class="dt-tab active" data-dt-slide="0">
+            07 Live Prototype Walkthrough
+          </button>
+          <button type="button" class="dt-tab" data-dt-slide="1">
+            08 Academic Trust Closing
+          </button>
+        </div>
+
+      </div>
+
+      <div class="dt-deck" id="dtDeck">
+
+        <!-- SLIDE 7: LIVE DEMO & EXPECTED DELIVERABLE -->
+        <article class="dt-3d-slide" data-dt-idx="0">
+
+          <div class="dt-slide-top">
+            <span class="tg">SLIDE 07 / LIVE DEMO &amp; EXPECTED DELIVERABLE · 3D PENDULUM DOSSIER</span>
+            <span class="chip">End-to-End Prototype Walkthrough</span>
+          </div>
+
+          <div class="dt-demo-grid">
+
+            <div class="dt-steps-col">
+              <span class="ex-eyebrow">INTERACTIVE WALKTHROUGH INSPECTOR</span>
+              <div class="dt-step-pill active-dt" data-demo="ingest">
+                <b>1. Upload / Paste</b>
+                <span>Ingest manuscript &amp; inline citations</span>
+              </div>
+              <div class="dt-step-pill" data-demo="extract">
+                <b>2. Extracted Claims</b>
+                <span>Isolate 30% score claim + [3] match</span>
+              </div>
+              <div class="dt-step-pill" data-demo="compare">
+                <b>3. Evidence &amp; Flags</b>
+                <span>Small pilot vs. 30% exaggeration flag</span>
+              </div>
+              <div class="dt-step-pill" data-demo="history">
+                <b>4. Review History</b>
+                <span>Audit trail &amp; reviewer notes log</span>
+              </div>
+            </div>
+
+            <div class="dt-inspector-card" id="dtInspectorCard">
+              <div class="dt-insp-top">
+                <span class="dt-insp-badge" id="dtInspBadge">STAGE 01 / INPUT &amp; PARSE</span>
+                <span class="dt-insp-status" id="dtInspStatus">PROTOTYPE READY</span>
+              </div>
+              <h3 id="dtInspTitle">Upload or Paste Manuscript Text</h3>
+              <p id="dtInspDesc">
+                Users drop a paper or paste draft text to immediately stage claims and inline citations for inspection.
+              </p>
+              <div class="dt-insp-log" id="dtInspLog">
+                • Input staged: “A particular study found that a learning app improved test scores by 30% [3].”
+              </div>
+            </div>
+
+          </div>
+
+          <div class="up-slide-actions">
+            <span class="cmp-inline-note">
+              Deliverable: Interactive claim inspector with evidence diff, flags &amp; review history
+            </span>
+            <button type="button" class="sample-load-btn" id="dtToTrustBtn">
+              Read Closing: Build for Academic Trust →
+            </button>
+          </div>
+
+        </article>
+
+        <!-- SLIDE 8: CLOSING — BUILD FOR ACADEMIC TRUST -->
+        <article class="dt-3d-slide" data-dt-idx="1">
+
+          <div class="dt-slide-top">
+            <span class="tg">SLIDE 08 / CLOSING — BUILD FOR ACADEMIC TRUST · 3D PENDULUM DOSSIER</span>
+            <span class="chip">Citation ≠ Proof</span>
+          </div>
+
+          <div class="dt-trust-layout">
+
+            <div class="dt-manifesto-box">
+              <span class="ex-eyebrow">CORE PRINCIPLE</span>
+              <h3>A citation is not proof by itself.</h3>
+              <p>
+                CiteVerify shows whether the original paper truly supports each claim, highlights uncertainty, and never presents an automated label as a final academic judgment—keeping every finding open to human review.
+              </p>
+            </div>
+
+            <div class="dt-pillars-col">
+              <div class="dt-pillar">
+                <strong>True Source Alignment</strong>
+                <span>Tests claims directly against the cited passage and scope.</span>
+              </div>
+              <div class="dt-pillar">
+                <strong>Transparent Uncertainty</strong>
+                <span>Surfaces pilot limits, missing metrics, and calibrated confidence.</span>
+              </div>
+              <div class="dt-pillar crimson-pillar">
+                <strong>Open to Human Review</strong>
+                <span>Automated output assists reviewers; human judgment stays final.</span>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="up-slide-actions">
+            <button type="button" class="ghost-next-btn" id="dtBackDemoBtn">
+              ← Back to Slide 07 Live Demo
+            </button>
+            <a href="#endNote" class="btn pri compact-link">
+              View Final Note ↓
+            </a>
+          </div>
+
+        </article>
+
+      </div>
+
+      <div class="up-footer">
+        <span id="dtSlideCounter">SLIDE 07 / 08</span>
+        <div class="pbar up-pbar">
+          <i id="dtProgressBar"></i>
+        </div>
+        <span id="dtScrollHint">SCROLL FOR LIVE DEMO &amp; TRUST CLOSING ↓</span>
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- =================================
+       FINAL SECTION
+  ================================== -->
+
+  <section class="end" id="endNote">
+
+    <span class="bar"></span>
+
+    <p>
+      Automated result, not a final academic judgment.
+      Every finding stays open to human review.
+    </p>
+
+    <a href="#hero" class="back-top">
+      BACK TO TOP ↑
+    </a>
+
+  </section>
+
+
+  <!-- GSAP + SCROLLTRIGGER + CITEVERIFY ENGINE -->
+
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js" defer></script>
+  <script src="script.js" defer></script>
+
+</body>
+</html>

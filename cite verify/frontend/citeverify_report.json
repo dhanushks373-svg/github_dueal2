@@ -1,0 +1,192 @@
+{
+    "project": "CiteVerify",
+    "report_generated": "2026-11-20 03:40:55",
+    "summary": {
+        "total_claims": 12,
+        "total_citations": 3,
+        "total_references": 0,
+        "matched_claims": 0,
+        "unmatched_claims": 12,
+        "verified_claims": 0,
+        "supported_claims": 0,
+        "partially_supported_claims": 0,
+        "unsupported_claims": 0,
+        "insufficient_evidence_claims": 12
+    },
+    "claims": [
+        {
+            "claim_id": 1,
+            "claim": "While this approach showed promise initially (Newell & Simon, 1963), many branches of AI have retreated from this approach due its difficulty and the lack of progress coming in to the 21st century.",
+            "citations": [],
+            "matching_status": "unmatched",
+            "matched_references": [],
+            "verification_status": "insufficient_evidence",
+            "verification_completed": false,
+            "reason": "No matching reference entry was found in the bibliography for this claim.",
+            "evidence": "Include a References / Bibliography section with matching [1] or (Author, Year) entries to verify against source text.",
+            "source_title": "Unmatched Reference",
+            "source_doi": "",
+            "confidence": 25
+        },
+        {
+            "claim_id": 2,
+            "claim": "Despite the length of time the field has existed, there is still no commonly accepted definition (Allen, 1998, Bhatnagar et al., 2018, Brachman, 2006, Hearst and Hirsh, 2000, Nilsson, 2009).",
+            "citations": [
+                "Allen, 1998"
+            ],
+            "matching_status": "unmatched",
+            "matched_references": [],
+            "verification_status": "insufficient_evidence",
+            "verification_completed": false,
+            "reason": "No matching reference entry was found in the bibliography for this claim.",
+            "evidence": "Include a References / Bibliography section with matching [1] or (Author, Year) entries to verify against source text.",
+            "source_title": "Unmatched Reference",
+            "source_doi": "",
+            "confidence": 25
+        },
+        {
+            "claim_id": 3,
+            "claim": "Intelligence usually means “the ability to solve hard problems” (Minsky, 1958).",
+            "citations": [
+                "Minsky, 1958"
+            ],
+            "matching_status": "unmatched",
+            "matched_references": [],
+            "verification_status": "insufficient_evidence",
+            "verification_completed": false,
+            "reason": "No matching reference entry was found in the bibliography for this claim.",
+            "evidence": "Include a References / Bibliography section with matching [1] or (Author, Year) entries to verify against source text.",
+            "source_title": "Unmatched Reference",
+            "source_doi": "",
+            "confidence": 25
+        },
+        {
+            "claim_id": 4,
+            "claim": "The methods that have to be used are related to the problem presented by the situation and are similar whether the problem solver is human, a Martian, or a computer program” (McCarthy, 1988).",
+            "citations": [
+                "McCarthy, 1988"
+            ],
+            "matching_status": "unmatched",
+            "matched_references": [],
+            "verification_status": "insufficient_evidence",
+            "verification_completed": false,
+            "reason": "No matching reference entry was found in the bibliography for this claim.",
+            "evidence": "Include a References / Bibliography section with matching [1] or (Author, Year) entries to verify against source text.",
+            "source_title": "Unmatched Reference",
+            "source_doi": "",
+            "confidence": 25
+        },
+        {
+            "claim_id": 5,
+            "claim": "Discussion This section summarises the findings of the SLR and highlights some areas that research to date has focused and the key findings from these studies.",
+            "citations": [],
+            "matching_status": "unmatched",
+            "matched_references": [],
+            "verification_status": "insufficient_evidence",
+            "verification_completed": false,
+            "reason": "No matching reference entry was found in the bibliography for this claim.",
+            "evidence": "Include a References / Bibliography section with matching [1] or (Author, Year) entries to verify against source text.",
+            "source_title": "Unmatched Reference",
+            "source_doi": "",
+            "confidence": 25
+        },
+        {
+            "claim_id": 6,
+            "claim": "This section will discuss relevant insights we found from the literature, starting with the lack of cohesion around the definition of AI, the resurgence of AI interest and research in recent years, the specific contribution types of AI literature, and the disproportionate focus on machine learning and process automation.",
+            "citations": [],
+            "matching_status": "unmatched",
+            "matched_references": [],
+            "verification_status": "insufficient_evidence",
+            "verification_completed": false,
+            "reason": "No matching reference entry was found in the bibliography for this claim.",
+            "evidence": "Include a References / Bibliography section with matching [1] or (Author, Year) entries to verify against source text.",
+            "source_title": "Unmatched Reference",
+            "source_doi": "",
+            "confidence": 25
+        },
+        {
+            "claim_id": 7,
+            "claim": "5) Do you believe that artificial intelligence will significantly impact the future of technology and society?\" 6) Artificial intelligence has the potential to revolutionize healthcare and improve patient outcomes?",
+            "citations": [],
+            "matching_status": "unmatched",
+            "matched_references": [],
+            "verification_status": "insufficient_evidence",
+            "verification_completed": false,
+            "reason": "No matching reference entry was found in the bibliography for this claim.",
+            "evidence": "Include a References / Bibliography section with matching [1] or (Author, Year) entries to verify against source text.",
+            "source_title": "Unmatched Reference",
+            "source_doi": "",
+            "confidence": 25
+        },
+        {
+            "claim_id": 8,
+            "claim": "Applications of Natural Language Processing can be found in IVR (Interactive Voice Response) applications used in call centres, language translation applications like Google Translate and word processors such as Microsoft Word to check the accuracy of grammar in text.",
+            "citations": [],
+            "matching_status": "unmatched",
+            "matched_references": [],
+            "verification_status": "insufficient_evidence",
+            "verification_completed": false,
+            "reason": "No matching reference entry was found in the bibliography for this claim.",
+            "evidence": "Include a References / Bibliography section with matching [1] or (Author, Year) entries to verify against source text.",
+            "source_title": "Unmatched Reference",
+            "source_doi": "",
+            "confidence": 25
+        },
+        {
+            "claim_id": 9,
+            "claim": "Automation & Robotics The purpose of Automation is to get the monotonous and repetitive tasks done by machines which also improve productivity and in receiving cost-effective and more efficient results.",
+            "citations": [],
+            "matching_status": "unmatched",
+            "matched_references": [],
+            "verification_status": "insufficient_evidence",
+            "verification_completed": false,
+            "reason": "No matching reference entry was found in the bibliography for this claim.",
+            "evidence": "Include a References / Bibliography section with matching [1] or (Author, Year) entries to verify against source text.",
+            "source_title": "Unmatched Reference",
+            "source_doi": "",
+            "confidence": 25
+        },
+        {
+            "claim_id": 10,
+            "claim": "The usage of machine vision can be found in signature identification, pattern recognition, and medical image analysis, etc.",
+            "citations": [],
+            "matching_status": "unmatched",
+            "matched_references": [],
+            "verification_status": "insufficient_evidence",
+            "verification_completed": false,
+            "reason": "No matching reference entry was found in the bibliography for this claim.",
+            "evidence": "Include a References / Bibliography section with matching [1] or (Author, Year) entries to verify against source text.",
+            "source_title": "Unmatched Reference",
+            "source_doi": "",
+            "confidence": 25
+        },
+        {
+            "claim_id": 11,
+            "claim": "AI is helping shoppers to discover associated products with recommended size, color, or even brand.",
+            "citations": [],
+            "matching_status": "unmatched",
+            "matched_references": [],
+            "verification_status": "insufficient_evidence",
+            "verification_completed": false,
+            "reason": "No matching reference entry was found in the bibliography for this claim.",
+            "evidence": "Include a References / Bibliography section with matching [1] or (Author, Year) entries to verify against source text.",
+            "source_title": "Unmatched Reference",
+            "source_doi": "",
+            "confidence": 25
+        },
+        {
+            "claim_id": 12,
+            "claim": "At present, some principal artificial intelligence techniques applied in antivirus detection It improves the performance of antivirus detection systems, and promotes the production of new artificial intelligence algorithm and the application in antivirus detection to integrate antivirus detection with artificial intelligence.",
+            "citations": [],
+            "matching_status": "unmatched",
+            "matched_references": [],
+            "verification_status": "insufficient_evidence",
+            "verification_completed": false,
+            "reason": "No matching reference entry was found in the bibliography for this claim.",
+            "evidence": "Include a References / Bibliography section with matching [1] or (Author, Year) entries to verify against source text.",
+            "source_title": "Unmatched Reference",
+            "source_doi": "",
+            "confidence": 25
+        }
+    ]
+}
